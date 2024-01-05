@@ -1,0 +1,43 @@
+.inputContainer {
+  width: 100%;
+  box-sizing: border-box;
+}
+#submit {
+  background-color: green;
+  color: white;
+}
+#myTable {
+  border-collapse: collapse;
+}
+.headings {
+  background-color: rgb(214, 214, 214);
+}
+#nameHeading {
+  width: 200px;
+}
+#emailHeading {
+  width: 250px;
+}
+#ageHeading {
+  width: 100px;
+}
+#successMessage {
+  background-color: crimson;
+  color: white;
+  width: 200px;
+  height: 50px;
+}
+#successMessage {
+  position: relative;
+}
+.close-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #999;
+}
+.close-icon:hover {
+  color: #ffffff;
+}
